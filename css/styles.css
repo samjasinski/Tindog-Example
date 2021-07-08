@@ -157,6 +157,7 @@ text-align: center;
 /*##### Elements #####*/
 body {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6vmax;
 }
 
 h2 {
