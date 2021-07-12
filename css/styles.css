@@ -28,6 +28,11 @@
   padding: 0 20px;
 }
 
+.burger-size {
+  height: 57;
+  width: 77;
+}
+
 /* &&&&& Main Title Image &&&&& */
 .title-image {
   transform: rotate(15deg);
@@ -63,7 +68,6 @@
 }
 
 /* &&&&& Features &&&&& */
-
 #features {
   background-color: #fff;
   position: relative;
@@ -92,9 +96,14 @@
   color: #8f8f8f;
 }
 
+@media only screen and (max-width: 990px) {
+  .feature-heading {
+    font-size: 45px;
+  }
+}
+
 /* &&&&& Testimonials &&&&& */
 #testimonials {
-
   text-align: center;
   background-color: #ff4c68;
 }
@@ -111,8 +120,8 @@
 }
 
 .carousel-item {
-    height: 500px;
-    padding: 7% 15% 0% 15%;
+  height: 500px;
+  padding: 7% 15% 0% 15%;
 }
 
 /* &&&&& Press &&&&& */
@@ -137,7 +146,6 @@
 }
 
 /*##### Call To Action #####*/
-
 #cta {
   background-color: #ff4c68;
   color: white;
@@ -145,18 +153,37 @@
   text-align: center;
 }
 
-/*##### Footer #####*/
-
-#footer {
-background-color: #ff4c68;
-color: white;
-padding: 0 0 1% 0;
-text-align: center;
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
+
+/*##### Footer #####*/
+#footer {
+  background-color: #fff;
+  height: 70px;
+  color: black;
+  text-align: center;
+  padding: 7& 15%;
+}
+
+.footer-icons {
+  margin: 20px 30px;
+}
+
 
 /*##### Elements #####*/
 body {
   font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  color: #F38BA0;
+  text-decoration: none;
+}
+a:hover {
+  color: #5F939A;
 }
 
 @media only screen and (max-width: 990px) {
@@ -164,12 +191,12 @@ body {
     font-size: 1.8vmax;
   }
 
-font-size: 1.6vmax;
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-}
 
-/* font-family: 'Ubuntu', sans-serif; */
+
+  /* font-family: 'Ubuntu', sans-serif; */
